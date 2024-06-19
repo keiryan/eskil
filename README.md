@@ -4,7 +4,7 @@ A project to showcase my ability to translate design and images into high qualit
 
 ### ⚠️ Under Construction ⚠️
 
-[Live code here 💻](https://github.com/keiryan/eskil/edit/main/README.md)
+[Live code here 💻](https://githubbox.com/keiryan/eskil)
 
 [Live demo here 👨🏽‍💻](https://eskil-rosy.vercel.app)
 
