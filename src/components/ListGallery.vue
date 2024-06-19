@@ -9,7 +9,7 @@
         </div>
         <EnterBubble />
       </div>
-      <img :src="item.image" alt="bed furniture" class="w-48 max-md:w-36" />
+      <img :src="getImageUrl(item.image)" alt="bed furniture" class="w-48 max-md:w-36" />
     </div>
   </div>
 </template>
@@ -23,6 +23,12 @@ export default {
   },
   components: {
     EnterBubble,
+  },
+  methods: {
+    getImageUrl(path) {
+      const newURL = new URL(`../assets/images/${path}`, import.meta.url).href;
+      return newURL;
+    },
   },
 };
 </script>

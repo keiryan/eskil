@@ -39,19 +39,19 @@
             date: '1.23.24',
             description:
               'Modern bed furniture with a minimalist design. It is made of high-quality materials and is available in different sizes and colors.',
-            image: '../assets/images/modern-bed.png',
+            image: 'modern-bed.png',
           },
           {
             date: '2.25.24',
             description:
               'Modern bed furniture with a minimalist design. It is made of high-quality materials and is available in different sizes and colors.',
-            image: '../assets/images/couch-gallery.png',
+            image: 'couch-gallery.png',
           },
           {
             date: '3.26.24',
             description:
               'Modern bed furniture with a minimalist design. It is made of high-quality materials and is available in different sizes and colors.',
-            image: '../assets/images/list tub.png',
+            image: 'list tub.png',
           },
         ]"
       />

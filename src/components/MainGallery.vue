@@ -41,7 +41,7 @@ export default {
       ],
       boxes: [
         {
-          image: "../assets/images/ceiling lamp 2.png",
+          image: "ceiling lamp 2.png",
           alt: "ceiling lamp",
           title: "Cool Sofa 2",
           price: "$200",
@@ -49,31 +49,31 @@ export default {
           alert: "New",
         },
         {
-          image: "../assets/images/oak drawer.png",
+          image: "oak drawer.png",
           alt: "oak landing chair",
           title: "Cool Sofa 2",
           price: "$200",
         },
         {
-          image: "../assets/images/floor lamp.png",
+          image: "floor lamp.png",
           alt: "oak landing chair",
           title: "Cool Sofa 2",
           price: "$200",
         },
         {
-          image: "../assets/images/Modern Bucket Chair.png",
+          image: "Modern Bucket Chair.png",
           alt: "oak landing chair",
           title: "Cool Sofa 2",
           price: "$200",
         },
         {
-          image: "../assets/images/Modern Chair 3.png",
+          image: "Modern Chair 3.png",
           alt: "oak landing chair",
           title: "Cool Sofa 2",
           price: "$200",
         },
         {
-          image: "../assets/images/modern coffee table.png",
+          image: "modern coffee table.png",
           alt: "oak landing chair",
           title: "Cool Sofa 2",
           price: "$200",

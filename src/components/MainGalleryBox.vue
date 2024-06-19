@@ -1,10 +1,12 @@
 <template>
   <div>
     <div class="bg-[#F3F3F3] min-h-72 relative overflow-hidden p-4">
-      <div v-if="box.alert" class="rounded-full border border-black px-2 w-fit">{{ box.alert }}</div>
+      <div v-if="box.alert" class="rounded-full border border-black px-2 w-fit">
+        {{ box.alert }}
+      </div>
       <div class="absolute w-full h-full top-0 left-0" :class="box.customClass">
         <img
-          :src="box.image"
+          :src="getImageUrl(box.image)"
           :alt="box.alt"
           class="w-full h-full object-contain"
         />
@@ -27,6 +29,12 @@ export default {
   name: "MainGallery",
   props: {
     box: Object,
+  },
+  methods: {
+    getImageUrl(path) {
+      const newURL = new URL(`../assets/images/${path}`, import.meta.url).href;
+      return newURL;
+    },
   },
 };
 </script>
