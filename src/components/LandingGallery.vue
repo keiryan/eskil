@@ -40,32 +40,18 @@ export default {
 </script>
 
 <style scoped>
-/* .landing-chair {
-  background-image: url("src/assets/images/oak landing chair.png");
-  background-size: cover;
-  background-position: 80% -40%;
-  background-repeat: no-repeat;
-} */
 
 .lamp-image {
-  background-image: url("src/assets/images/ceiling lamp.png");
+  background-image: url("../assets/images/ceiling lamp.png");
   background-size: contain;
   background-position: top 0% left 80%;
   background-repeat: no-repeat;
 }
 
 .clock-image {
-  background-image: url("src/assets/images/oak clock.png");
+  background-image: url("../assets/images/oak clock.png");
   background-size: contain;
   background-position: right;
   background-repeat: no-repeat;
 }
-/* Come back to finish this */
-/* @media (max-width: 768px) {
-  .lamp-image {
-    background-size: contain;
-    background-position: top 0% left 1000%;
-    background-repeat: no-repeat;
-  }
-} */
 </style>
