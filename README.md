@@ -1,8 +1,9 @@
-# Vue 3 + Vite
+# Eskil
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A project to showcase my ability to translate desgin and images into high quality, responsive web sites and apps.
 
-## Recommended IDE Setup
+### ⚠️ Under Construction ⚠️
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
-# eskil
+Lice code here 💻: https://github.com/keiryan/eskil/edit/main/README.md
+
+Live demo here 👨🏽‍💻: https://eskil-rosy.vercel.app
