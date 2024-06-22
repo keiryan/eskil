@@ -4,8 +4,8 @@ A project to showcase my ability to translate design and images into high qualit
 
 ### ⚠️ Under Construction ⚠️
 
+[Live site demo here 👨🏽‍💻](https://eskil-rosy.vercel.app)
+
 [Live code here 💻](https://githubbox.com/keiryan/eskil)
 
-[Live demo here 👨🏽‍💻](https://eskil-rosy.vercel.app)
-
-[Dribbble here 🏀](https://dribbble.com/shots/18882943-Eskil-Furniture-Store-Theme)
+[Dribbble and original designer here 🏀](https://dribbble.com/shots/18882943-Eskil-Furniture-Store-Theme)
