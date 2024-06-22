@@ -1,6 +1,6 @@
 <template>
   <div
-    class="text-sm text-gray-500 uppercase p-2 cursor-pointer transition-colors duration-300 ease-in-out hover:text-black"
+    class="text-sm uppercase p-2 cursor-pointer transition-colors duration-300 ease-in-out hover:text-black"
     :class="
       category === currentProductCategory ? 'text-black' : 'text-gray-500'
     "

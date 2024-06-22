@@ -22,19 +22,15 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import getImageUrl from "../utils/ImageGrabber.js";
+</script>
 
 <script>
 export default {
   name: "MainGallery",
   props: {
     box: Object,
-  },
-  methods: {
-    getImageUrl(path) {
-      const newURL = new URL(`../assets/images/${path}`, import.meta.url).href;
-      return newURL;
-    },
   },
 };
 </script>
