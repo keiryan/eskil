@@ -1,7 +1,7 @@
 <template>
   <div class="w-screen h-screen flex justify-center overflow-y-auto">
     <!-- Middle Div -->
-    <div class="w-full max-w-screen-xl p-4 max-md:py-8 flex flex-col relative">
+    <div class="w-full max-w-screen-xl p-4 max-md:py-24 flex flex-col relative">
       <div class="w-full flex justify-between max-md:hidden">
         <div class="flex items-center gap-1">
           <Sparkle size="14" />
@@ -19,10 +19,14 @@
           </div>
         </div>
       </div>
-      <h1 class="text-6xl py-8 font-['Italiana'] flex justify-center uppercase">
-        Eskil<sup class="text-lg">®</sup>
-      </h1>
-      <NavBar class="z-[1]" />
+      <div class="w-full z-[1] flex flex-col justify-center">
+        <h1
+          class="w-full text-6xl py-8 font-['Italiana'] flex justify-center uppercase"
+        >
+          Eskil<sup class="text-lg">®</sup>
+        </h1>
+        <NavBar class="z-[1]" />
+      </div>
       <LandingGallery :LargeImage="{ title: 'Cool Sofa', artist: 'Keiryan' }" />
 
       <div class="flex justify-center">
@@ -33,6 +37,7 @@
         </div>
       </div>
       <MainGallery />
+      <Inspiration />
       <ListGallery
         :list="[
           {
@@ -72,6 +77,7 @@ import MainGallery from "./components/MainGallery.vue";
 import Footer from "./components/Footer.vue";
 import Subscribe from "./components/Subscribe.vue";
 import ListGallery from "./components/ListGallery.vue";
+import Inspiration from "./components/Inspiration.vue";
 export default {
   name: "App",
   components: {
@@ -81,6 +87,7 @@ export default {
     Footer,
     Subscribe,
     ListGallery,
+    Inspiration,
   },
 };
 </script>
